@@ -28,9 +28,22 @@ const Pricing = () => {
         </div>
 
         <Heading
-          tag="Get started with Brainwave"
-          title="Pay once, use forever"
+          tag="Join the whitelist of ShortCall"
+          title="Get early access for a discount"
         />
+        <div className="subscribe">
+          <form action="https://submit-form.com/cWVnSwfqr">
+            <div className="form">
+              <input type="email" name="email" className="form__email" placeholder="Enter your email address" />
+              <button type="submit" className="form__button">Join Whitelist</button>
+            </div>
+          </form>
+        </div>
+
+        {/* <form action="https://submit-form.com/cWVnSwfqr">
+          <input type="email" name="email" placeholder="Email Adress" className="contact-form-input w-input" />
+          <button type="submit" className="button relative inline-flex items-center justify-center h-11 transition-colors hover:text-color-1">Subscribe</button>
+        </form> */}
 
         <div className="relative">
           <PricingList />
@@ -38,14 +51,6 @@ const Pricing = () => {
           <RightLine />
         </div>
 
-        <div className="flex justify-center mt-10">
-          <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
-          >
-            See the full details
-          </a>
-        </div>
       </div>
     </Section>
   );
