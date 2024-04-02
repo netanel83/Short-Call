@@ -3,6 +3,8 @@ import { pricing } from "../constants";
 import Button from "./Button";
 
 const PricingList = () => {
+
+
   return (
     <div className="flex gap-[1rem] max-lg:flex-wrap">
       {pricing.map((item) => (
@@ -20,8 +22,8 @@ const PricingList = () => {
             {item.price && (
               <>
                 <div className="h3">$</div>
-                <div className="text-[3.5rem] leading-none font-bold">
-                  {item.price} <span className="instead">{item.priceInstead}</span>
+                <div className="text-[2.7rem] leading-none font-bold">
+                  {item.price}<span className="month">/month</span> <span className="instead">{item.priceInstead}</span>
                 </div>
               </>
             )}
@@ -32,7 +34,7 @@ const PricingList = () => {
             href="#pricing"
             white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
+            {item.price ? "Join Waitlist" : "Contact us"}
           </Button>
 
           <ul>

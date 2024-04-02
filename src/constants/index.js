@@ -49,11 +49,11 @@ export const navigation = [
     title: "Pricing",
     url: "#pricing",
   },
-  {
-    id: "2",
-    title: "How to use",
-    url: "#how-to-use",
-  },
+  // {
+  //   id: "2",
+  //   title: "How to use",
+  //   url: "#how-to-use",
+  // },
   // {
   //   id: "3",
   //   title: "Roadmap",
@@ -211,36 +211,52 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "19.99",
-    priceInstead: "25.99",
+    description: "Up To 100 Calls Per Month.",
+    price: "79",
+    priceInstead: "99",
     features: [
       "24/7 Answering",
       "Answer multiple calls simultaneously",
       "Personalized Guest Interaction",
+      "Custom Business Knowledge Database",
+      "Choice Of 2 Distinct Voices"
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    priceInstead: "39.99",
-    price: "29.99",
+    title: "Pro",
+    description: "Up To 300 Calls Per Month.",
+    price: "199",
+    priceInstead: "229",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Everything In Basic Plan",
+      "An Analytics Dashboard To Track Incoming Calls",
+      "Choice Of 5 Distinct Voices",
+      "Takeout orders"
     ],
   },
   {
     id: "2",
+    title: "Advanced",
+    description: "Up To 1000 Calls Per Month.",
+    price: "429",
+    priceInstead: "469",
+    features: [
+      "Everything In Pro Plan",
+      "Personalized recommendations based on your preferences",
+      "Outbound Texts",
+      "Custom Integrations"
+    ],
+  },
+  {
+    id: "3",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "Custom Solution For Your Needs. Unlimited Calls.",
     price: null,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Integration Plugins",
+      "Premium Voices",
+      "Advanced Analytics"
     ],
   },
 ];
@@ -304,30 +320,30 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
+    url: "#pricing",
   },
   {
     id: "1",
     title: "Twitter",
     iconUrl: twitter,
-    url: "#",
+    url: "#pricing",
   },
   {
     id: "2",
     title: "Instagram",
     iconUrl: instagram,
-    url: "#",
+    url: "#pricing",
   },
   {
     id: "3",
     title: "Telegram",
     iconUrl: telegram,
-    url: "#",
+    url: "#pricing",
   },
   {
     id: "4",
     title: "Facebook",
     iconUrl: facebook,
-    url: "#",
+    url: "#pricing",
   },
 ];

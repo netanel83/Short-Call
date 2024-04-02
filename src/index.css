@@ -87,6 +87,13 @@
   scroll-behavior: smooth
 }
 
+.month {
+  color: rgba(darkgray, 0.5);
+  text-decoration: none;
+  position: relative;
+  font-size: 16px;
+  font-weight: 100;
+}
 
 .instead {
   color: rgba(darkgray, 0.5);
@@ -94,6 +101,8 @@
   position: relative;
   font-size: 40px;
   font-weight: 100;
+  right: 124px;
+  top: -40px;
 
   &:before {
     content: " ";

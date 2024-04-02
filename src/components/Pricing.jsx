@@ -35,7 +35,7 @@ const Pricing = () => {
           <form action="https://submit-form.com/cWVnSwfqr">
             <div className="form">
               <input type="email" name="email" className="form__email" placeholder="Enter your email address" />
-              <button type="submit" className="form__button">Join Whitelist</button>
+              <button type="submit" className="form__button">Join Waitlist</button>
             </div>
           </form>
         </div>
