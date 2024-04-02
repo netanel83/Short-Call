@@ -8,14 +8,14 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 //import Roadmap from "./components/Roadmap";
 //import Services from "./components/Services";
-import ReactGA from 'react-ga';
+import ReactGA from 'react-ga4';
 
 const TRACKING_ID = "G-M7D35PSYH4";
 const App = () => {
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID);
     // Send pageview with a custom path
-    //ReactGA.send({ hitType: "pageview", page: "/landingpage", title: "Landing Page" });
+    ReactGA.send({ hitType: "pageview", page: "/landingpage", title: "Landing Page" });
   }, [])
   return (
     <>
