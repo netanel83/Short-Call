@@ -55,12 +55,12 @@ import roadmap3 from "./roadmap/image-3.png";
 import roadmap4 from "./roadmap/image-4.png";
 import undone from "./roadmap/undone.svg";
 
-import card1 from "./benefits/card-1.svg";
-import card2 from "./benefits/card-2.svg";
-import card3 from "./benefits/card-3.svg";
-import card4 from "./benefits/card-4.svg";
-import card5 from "./benefits/card-5.svg";
-import card6 from "./benefits/card-6.svg";
+// import card1 from "./benefits/card-1.svg";
+// import card2 from "./benefits/card-2.svg";
+// import card3 from "./benefits/card-3.svg";
+// import card4 from "./benefits/card-4.svg";
+// import card5 from "./benefits/card-5.svg";
+// import card6 from "./benefits/card-6.svg";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -88,12 +88,6 @@ import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
 export {
-  card1,
-  card2,
-  card3,
-  card4,
-  card5,
-  card6,
   shortCall,
   check,
   check2,
