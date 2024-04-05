@@ -98,11 +98,11 @@
 .instead {
   color: rgba(darkgray, 0.5);
   text-decoration: none;
-  position: relative;
+  position: absolute;
   font-size: 40px;
   font-weight: 100;
-  right: 124px;
-  top: -40px;
+  /* right: 124px;
+  top: -40px; */
 
   &:before {
     content: " ";
